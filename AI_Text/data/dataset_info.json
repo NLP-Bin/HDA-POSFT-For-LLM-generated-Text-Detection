@@ -1,0 +1,15 @@
+{
+  "dpo_train": {
+    "file_name": "./augmented_inst_data/dpo_train.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "sft_train": {
+    "file_name": "./augmented_inst_data/sft_train.json"
+  }
+}
